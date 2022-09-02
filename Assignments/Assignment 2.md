@@ -10,12 +10,14 @@ Before starting the coding part of the webpage, I made three potential wireframe
 ## Coding process
 In the coding process, I started off the same way as we did in class. Using the h1 tag, I created my web title and added an unordered list that included my name, class name, project type, and year. I then added another heading with a tag that contained the link to play the game. Benth that, I added an image of the game. After the image, I included a description of the game by using a p tag and added a link at the end that takes you to my full documentation. Underneath, I uploaded a video demonstrating what it looks like to play the game. Lastly, I added my footer, which included contact information. 
 ## Challenges 
-The main challenge I faced was trying to move sections on my webpage, such as description location. After browsing through [MDN](), I used the table technique. This technique divides the webpage into two parts left and right. I kept the image on the left and moved the description to the right. Another challenge I encountered was creating classes. I was able to successfully create the class itself and add it to both HTML and CSS files however, it did not work. For instance, when I used a specific tag in CSS to change the font, it worked however, when I used a class, it did not. 
+The main challenge I faced was trying to move sections on my webpage, such as description location. After browsing through [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics), I used the table technique. This technique divides the webpage into two parts left and right. I kept the image on the left and moved the description to the right. Another challenge I encountered was creating classes. I was able to successfully create the class itself and add it to both HTML and CSS files however, it did not work. For instance, when I used a specific tag in CSS to change the font, it worked however, when I used a class, it did not. 
 
 The location and adjustment of the video and description were not what I had in mind and in my wireframe. For my next steps, I hope to be capable of easily adjusting the locations of my webpage components. 
 
 
-
+### References:
+* [MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
+* [Class Github](https://github.com/MathuraMG/ConnectionsLab-NYUAD/tree/master/Week_01_HTML_CSS)
 
 ## HTML Code
 
