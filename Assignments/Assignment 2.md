@@ -7,6 +7,8 @@ For this week’s assignment, I decided to create a webpage for one of my previo
 
 Before starting the coding part of the webpage, I made three potential wireframes. I decided to go with the last one.
 
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/wirefram1.jpeg" width = "420" height = "300"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/wireframe2.jpeg" width = "420" height = "300"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/wireframe3.jpeg" width = "420" height = "300">
+
 ## Coding process
 In the coding process, I started off the same way as we did in class. Using the h1 tag, I created my web title and added an unordered list that included my name, class name, project type, and year. I then added another heading with a tag that contained the link to play the game. Benth that, I added an image of the game. After the image, I included a description of the game by using a p tag and added a link at the end that takes you to my full documentation. Underneath, I uploaded a video demonstrating what it looks like to play the game. Lastly, I added my footer, which included contact information. 
 ## Challenges 
