@@ -1,6 +1,6 @@
 # Webpage of a Past Project
 
-Link to Webpage: file:///Users/fatemaalhameli/Desktop/Connections%20Lab%20Code/Assignment%202/index.html
+[Link to Webpage](https://fatemaalhameli.github.io/ConnectionsLab/Assignments/Assignment%202/index.html)
 
 For this week’s assignment, I decided to create a webpage for one of my previous Interactive Media class projects from Spring 2022 (Introduction to Interactive Media). This was a midterm project where I had to develop a game using p5.js. My webpage for this assignment consists of a description, image, and a video demo of the game. The webpage also includes two links; a link to the game and a link to the complete documentation of the game's development progress. 
 
