@@ -1,0 +1,36 @@
+body{
+    background-color: #f4eeed; 
+    color: #5d5e4f; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin: 70px;
+    font-size: 20px
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin: 70px;
+    font-size: 20px
+}
+
+.list1{
+    list-style-type: none;
+}
+
+
+
