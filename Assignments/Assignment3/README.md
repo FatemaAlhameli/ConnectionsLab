@@ -1,7 +1,7 @@
 
 # Grocery List Webpage
 
-#### [A place that fits your needs!](https://fatemaalhameli.github.io/ConnectionsLab/Assignments/Assignment%203/index.html)
+#### [A place that fits your needs!](https://fatemaalhameli.github.io/ConnectionsLab/Assignments/Assignment3/index.html)
 
 For this week’s assignment, we were asked to create a meaningful webpage that incorporates at least two event-driven user interactions. Brainstorming ideas for this webpage was not as easy as I thought it would be. However, while I was having a discussion with my sibling about what we needed from the grocery store, I figured that I could make a webpage that allows the user to jot down their list of groceries. Creating groceries lists ultimately allows one to not forget to purchase certain groceries. This webpage includes a check-off box option where the user can cross out the item they added to their shopping cart. 
 
