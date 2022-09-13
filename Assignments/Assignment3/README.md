@@ -5,6 +5,8 @@
 
 For this week’s assignment, we were asked to create a meaningful webpage that incorporates at least two event-driven user interactions. Brainstorming ideas for this webpage was not as easy as I thought it would be. However, while I was having a discussion with my sibling about what we needed from the grocery store, I figured that I could make a webpage that allows the user to jot down their list of groceries. Creating groceries lists ultimately allows one to not forget to purchase certain groceries. This webpage includes a check-off box option where the user can cross out the item they added to their shopping cart. 
 
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/g2.png" width = "420" height = "300"> <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/g1.png" width = "420" height = "300">
+
 #### Wireframe:
 
 The layout of the webpage was pretty straightforward. I divided it into three sections: the heading, the kitchen list, and the house list. This way, it would be more organized for the user. 
