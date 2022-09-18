@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(
+        to right, #cfd9e3, #deccd5, #f8bdc1
+    )
+}
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 100px;
+    font-size: 100px;
+    font-style: italic;
+
+   
+}
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    
+
+}
