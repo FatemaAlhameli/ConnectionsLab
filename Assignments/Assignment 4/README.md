@@ -14,7 +14,7 @@ Similar to the class demo example, I used ```.fetch``` and ```.then``` with an A
 
 ### Challenges:
 
-The main challenges I faced in this assignment were finding datasets and making sure they worked. I struggled with a dataset that gave me an error that it's not possible to fetch the API link because it's blocked. This is something I still need to work on and find alternative datasets that I can use. Most dataset arent very similar therefore it takes time to get the hang of how to use it and display it on a webpage.  
+The main challenges I faced in this assignment were finding datasets and making sure they worked. I struggled with a dataset that gave me an error that it's not possible to fetch the API link because it's blocked. This is something I still need to work on and find alternative datasets that I can use. Most datasets aren't very similar. Therefore, it takes time to get the hang of using and displaying it on a webpage. I also struggled with creating a for loop that would allow me to display the quotes in an organized format. After looking for a method from MDN, I was able to use ```<table>``` to organize the elements in the loop. This definitely took time to figure out; however, I was able to understand how to use for loops to display datasets. 
 
 
 ### Next Steps:
