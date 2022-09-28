@@ -118,6 +118,48 @@ function affirmationPage() {
 ```
 I then pasted the JS function names accordingly in the HTML files in a script tag. 
 
+For the heart reaction button to work I needed access the button from JS with the button id. I then added a click event. I then add my [p5 code](https://editor.p5js.org/FatemaAlhameli/sketches/jwuxz7z0q). In the event listener, I pasted the for loop that created a random locations for the falling hearts. 
+```
+ let reactionButton = document.getElementById("rbtn");
+ reactionButton.addEventListener("click", () => {
+   buttonIsClicked = true;
+   for (let i = 0; i < noEmoji; i++) {
+     let xPos = Math.random() * width;
+     let yPos = Math.random() * height;
+     emoji[i] = new Emoji(xPos, yPos);
+   }
+ })
+});
+```
+In setup, I created a canvas that for the animation. Then in draw, I added a background and I call two functions that draw and move the hearts. These functions are placed in a class I created for the hearts animation. The class is placed in a separate JS file and is link in the HTML files. 
+```
+function setup() {
+ let cnv = createCanvas(window.innerWidth, 600);
+ cnv.parent("animation");
+}
+ 
+function draw() {
+ background(177, 191, 180);
+ for (let i = 0; i < emoji.length; i++) {
+   emoji[i].drawEmoji();
+   emoji[i].moveEmoji();
+ }
+}
+class Emoji {
+   constructor(xPos, yPos) {
+     this.x = xPos;
+     this.y = yPos;
+     this.speed = 5;
+   }
+   drawEmoji() {
+     textSize(64);
+     text("❤️", this.x, this.y);
+   }
+   moveEmoji() {
+     this.y = (this.y + this.speed);
+   }
+ }
+```
 
 
 
