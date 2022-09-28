@@ -134,11 +134,18 @@ For the heart reaction button to work I needed access the button from JS with th
  })
 });
 ```
-In setup, I created a canvas that for the animation. Then in draw, I added a background and I call two functions that draw and move the hearts. These functions are placed in a class I created for the hearts animation. The class is placed in a separate JS file and is link in the HTML files. 
+In setup, I created a canvas that for the animation. I added an if and else statement to ensure that when the mobile version is used the canvas size would adjust. I think that there is still space for improvement in the mobile version. Then in draw, I added a background and I call two functions that draw and move the hearts. These functions are placed in a class I created for the hearts animation. The class is placed in a separate JS file and is link in the HTML files. 
 ```
 function setup() {
- let cnv = createCanvas(window.innerWidth, 600);
- cnv.parent("animation");
+  let x = 383;
+  let w = window.innerWidth;
+  if(w <= 395){
+    let cnv = createCanvas(x, 600);
+    cnv.parent("animation");
+  } else{
+    let cnv = createCanvas(window.innerWidth, 600);
+    cnv.parent("animation");
+  }
 }
  
 function draw() {
@@ -246,6 +253,7 @@ Throughout the development process of this project, I was able to learn key less
 * Think of different ways to design the audio play and make it more responsive. 
 * Add more than one song to the audio player
 * Think of ways to add more visuals
+* Improve mobile version
 
 ## References: 
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
