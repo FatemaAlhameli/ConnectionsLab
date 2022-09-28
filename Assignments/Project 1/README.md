@@ -2,6 +2,8 @@
 
 Fatema Alhameli
 
+[Website Link](https://fatemaalhameli.github.io/ConnectionsLab/Assignments/Project%201/index.html)
+
 For project 1, I developed a well-being and positivity website that contains positive messages for users. This webpage aims to have one of the easiest ways to improve one's mood by simply reading a positive message/quote or affirmation from a specific category. Depending on the user's needs, they will be able to choose a positive message from the following categories: inspirational and motivational quotes or affirmations. This webpage will be designed to help people feel better and hopefully keep one's negative feelings away. Having a positive outlook can help boost users' confidence and energy, make them feel better about themselves, and connect with others. A daily dose of positivity and mindfulness! The ideal audience for my webpage is students that need motivation in their daily education lives or anyone that is looking for positive encouragement throughout their day.
 
 ## Inspiration:
