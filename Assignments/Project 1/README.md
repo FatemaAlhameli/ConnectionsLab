@@ -78,7 +78,7 @@ window.addEventListener('load', () => {
 ```
 
 
-I want to make a few changes in the affirmations dataset. So I followed the same fetching steps and I stored the data in a new array and filtered out two affirmations categories which were love and money. I excluded them to make the data content focus more self positivity and mindfulness. I looped through the array and used an if statement to exclude the tags I didnt want from the dataset. Below is a snippet:
+I wanted to make a few changes in the affirmations dataset. So I followed the same fetching steps and I stored the data in a new array and filtered out two affirmations categories which were love and money. I excluded them to make the data content focus more self positivity and mindfulness. I looped through the array and used an if statement to exclude the tags I didnt want from the dataset. Below is a snippet:
 
 
 ```
@@ -137,7 +137,7 @@ I then pasted the JS function names accordingly in the HTML files in a script ta
 
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/bg%202.png" width = "420" height = "300"> <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/btns.png" width = "490" height = "260">
 
-For the heart reaction button to work I needed access the button from JS with the button id. I then added a click event. I then add my [p5 code](https://editor.p5js.org/FatemaAlhameli/sketches/jwuxz7z0q). In the event listener, I pasted the for loop that created a random locations for the falling hearts. 
+For the heart reaction button to work I needed to access the button from JS with the button id. I then added a click event. I then add my [p5 code](https://editor.p5js.org/FatemaAlhameli/sketches/jwuxz7z0q). In the event listener, I pasted the for loop that created a random locations for the falling hearts. 
 ```
  let reactionButton = document.getElementById("rbtn");
  reactionButton.addEventListener("click", () => {
@@ -275,8 +275,8 @@ Throughout the development process of this project, I was able to learn key less
 * For the affirmations data, I could make categories for types of affirmations, and the user could choose their desired category 
 * Think of different ways to design the audio play and make it more responsive
 * Add more than one song to the audio player
-* Add a placeholder in affirmation and quotes container
 * Make the audio play when the page loads
+* Add a placeholder in affirmation and quotes container
 * Improve mobile version
 
 ## References: 
