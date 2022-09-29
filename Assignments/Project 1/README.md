@@ -248,6 +248,7 @@ Another styling issue I had was the gradient background. It was pretty simple to
 
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/bg%201.png" width = "420" height = "300"> <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/bg%202.png" width = "420" height = "300">
 
+The canvas I created also seemed to have a larger width than the rest of backgrounds on the web. In JS I used ```width.innerWidth``` for the size of the canvas. But every time I tried to add a number to make the width aligned with the rest of the elements on the webpage it didn’t work. However I was able to fix it on the mobile version.
 
 ## Lessons & Next Steps: 
 Throughout the development process of this project, I was able to learn key lessons about creating a website for a certain audience. By communicating with my ideal audience, I was able to understand the different user perspectives and needs. Trying things on my own alongside trial and error allowed me to learn more about the three programming languages. 
