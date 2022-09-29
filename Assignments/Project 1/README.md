@@ -2,7 +2,7 @@
 
 Fatema Alhameli
 
-[Website Link](https://fatemaalhameli.github.io/ConnectionsLab/Assignments/Project%201/index.html)
+[Website Link](https://fatemaalhameli.github.io/ConnectionsLab/Assignments/Project%201/index.html)  PS: Make sure your screen is set to full screen when using the website. In order for all interactions to appear on your browser. 
 
 [Presentation Link](https://docs.google.com/presentation/d/14Xn5s2rL3WvGk88II39nAf7rOv2FqR6GlJeI0XKp0Xk/edit#slide=id.gfb426853b0_1_0)
 
