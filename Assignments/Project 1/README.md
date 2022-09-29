@@ -250,11 +250,12 @@ Another styling issue I had was the gradient background. It was pretty simple to
 ## Lessons & Next Steps: 
 Throughout the development process of this project, I was able to learn key lessons about creating a website for a certain audience. By communicating with my ideal audience, I was able to understand the different user perspectives and needs. Trying things on my own alongside trial and error allowed me to learn more about the three programming languages. 
 
-* Change the order of the way data is presented. Try to make it so that the data is displayed in a random order rather than the same order all the time when the button is pressed.
-* For the affirmations data, I could make categories for types of affirmations, and the user could choose their desired category. 
-* Think of different ways to design the audio play and make it more responsive. 
+* Change the order of the way data is presented. Try to make it so that the data is displayed in a random order rather than the same order all the time when the button is pressed
+* For the affirmations data, I could make categories for types of affirmations, and the user could choose their desired category 
+* Think of different ways to design the audio play and make it more responsive
 * Add more than one song to the audio player
-* Think of ways to add more visuals
+* Add a placeholder in affirmation and quotes container
+* Make the audio play when the page loads
 * Improve mobile version
 
 ## References: 
