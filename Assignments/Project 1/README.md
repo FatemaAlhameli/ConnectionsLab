@@ -17,6 +17,16 @@ In my project, I used two datasets for the development of my webpage. Initially,
 ## Wireframe:
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/project%201%20wireframe%201.png" width = "420" height = "300"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/project%201%20wireframe%202.png" width = "400" height = "290"> <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/project%201%20wireframe%203.png" width = "400" height = "290">
 
+## Result:
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/home%20pg.png" width = "460" height = "290"> 
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/pg3.png" width = "460" height = "290"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/pg2.png" width = "460" height = "290>
+                                                                                                                                                   
+
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/affirmations%20pg.png" width = "460" height = "290"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/quotes%20pg.png" width = "460" height = "290">
+
+
+
+
 ## Layout & User Interactions: 
 The layout of my webpage consists of three pages, home, affirmations, and inspirational quotes. The home page welcomes the user to the website and includes a short description of the website’s goal. The affirmations and quotes pages have similar layouts. Underneath the page title, there is an empty box, and at the bottom of this box are two buttons a “New Affirmation/Quote” button and a “❤️” button. The first button allows the user to change the quote/affirmation that appears on the web from the datasets uploaded. The heart button is for the user to react to the affirmations or quotes. If the heart button is pressed, hearts fall down from the top of the screen. On the bottom of these two pages is an audio player. The audio player consists of a meditation song that a user can play when going through the affirmations and quotes. The last interaction added in the affirmations and quotes pages is a self-notes area that appears on the button right of all pages. This would allow users to write down any notes for themselves or to reflect on what they have read.
 
@@ -39,6 +49,9 @@ I began my coding progress by creating three HTML files. In addition to the ```i
        </div>
 
 ```
+
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/home%20pg.png" width = "460" height = "290">
+
 In both my affirmations and quotes page, I created a section that includes all the mechanisms that would allow the data to be displayed and the heart animation to work when the buttons are clicked. This section contains the page titles, buttons, classes, and ids of tags. Below is a code snippet of one of these pages.
 
 ```
@@ -68,7 +81,7 @@ window.addEventListener('load', () => {
 ```
 
 
-I want to make a few changes in the airfrmations dataset. So I followed the same fetching steps and I stored the data in a new array and filtered out two affirmations categories which were love and money. I excluded them to make the data content focus more self positivity and mindfulness. I looped through the array and used an if statement to exclude the tags I didnt want from the dataset. Below is a snippet:
+I want to make a few changes in the affirmations dataset. So I followed the same fetching steps and I stored the data in a new array and filtered out two affirmations categories which were love and money. I excluded them to make the data content focus more self positivity and mindfulness. I looped through the array and used an if statement to exclude the tags I didnt want from the dataset. Below is a snippet:
 
 
 ```
@@ -125,6 +138,8 @@ I then pasted the JS function names accordingly in the HTML files in a script ta
 
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/function%201.png" width = "260" height = "100"> <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/function%202.png" width = "260" height = "100">
 
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/bg%202.png" width = "420" height = "300"> <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/btns.png" width = "490" height = "260">
+
 For the heart reaction button to work I needed access the button from JS with the button id. I then added a click event. I then add my [p5 code](https://editor.p5js.org/FatemaAlhameli/sketches/jwuxz7z0q). In the event listener, I pasted the for loop that created a random locations for the falling hearts. 
 ```
  let reactionButton = document.getElementById("rbtn");
@@ -175,7 +190,7 @@ class Emoji {
  }
 ```
 
-
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/Hearts.png" width = "440" height = "300">
 
 Another element I added to my HTML pages is an audio player. The audio player was simple to add as I used the audio tag. I added the text “Listen to me!” that appears on top of the audio player. This label is meant to show the user that there is an audio for them on the webpage.
 
@@ -186,6 +201,9 @@ Another element I added to my HTML pages is an audio player. The audio player wa
        <source src="assets/audio.mp3" type="audio/mpeg">
    </audio>
 ```
+
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/audio.png" width = "490" height = "260"> 
+
 The last element I added to the HTML code was the notes area interaction. This interaction included a ```<textarea>``` and a button under it. What I wanted was to make the text area appear/slide up when the button is pressed. To make this interaction work I had to use CSS and JavaScript. Since I wanted the button to stay fixed on the screen at all times I used ```position: fixed;```  in CSS alongside other properties to adjust its shape and appearance. In JavaScript, I created a function called ``` function textslide () {}``` for the interaction. I created variables and accessed the button and text area in the HTML code by using ids. I then added a click event to them. In this event I added an if else statement that indicates that if the button is clicked the text area would slide open by the height increasing, else if pressed the height of the text area would go back to zero hence closing the text area. I then added the function in both the affirmations and quotes HTML files in the script tag that I made earlier for other functions. 
 
 ```
@@ -210,6 +228,7 @@ function textslide() {
  });
 }
 ```
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/text%20area.png" width = "420" height = "300"> 
 
 The CSS code in general was straightforward to write. However, I had to make sure I was using suitable properties to style my HTML elements. Some properties were repetitive, like margin and padding properties, alignment, font properties, colors, background images, height, width, and flex. 
 
