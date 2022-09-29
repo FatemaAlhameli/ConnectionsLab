@@ -18,15 +18,12 @@ In my project, I used two datasets for the development of my webpage. Initially,
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/project%201%20wireframe%201.png" width = "420" height = "300"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/project%201%20wireframe%202.png" width = "400" height = "290"> <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/project%201%20wireframe%203.png" width = "400" height = "290">
 
 ## Result:
+
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/home%20pg.png" width = "460" height = "290"> 
-<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/pg3.png" width = "460" height = "290"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/pg2.png" width = "460" height = "290>
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/pg3.png" width = "460" height = "290">
+<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/affirmations%20pg.png" width = "460" height = "290"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/quotes%20pg.png" width = "460" height = "290>
                                                                                                                                                    
-
-<img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/affirmations%20pg.png" width = "460" height = "290"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/quotes%20pg.png" width = "460" height = "290">
-
-
-
-
+                                                                                                                                                                                                             
 ## Layout & User Interactions: 
 The layout of my webpage consists of three pages, home, affirmations, and inspirational quotes. The home page welcomes the user to the website and includes a short description of the website’s goal. The affirmations and quotes pages have similar layouts. Underneath the page title, there is an empty box, and at the bottom of this box are two buttons a “New Affirmation/Quote” button and a “❤️” button. The first button allows the user to change the quote/affirmation that appears on the web from the datasets uploaded. The heart button is for the user to react to the affirmations or quotes. If the heart button is pressed, hearts fall down from the top of the screen. On the bottom of these two pages is an audio player. The audio player consists of a meditation song that a user can play when going through the affirmations and quotes. The last interaction added in the affirmations and quotes pages is a self-notes area that appears on the button right of all pages. This would allow users to write down any notes for themselves or to reflect on what they have read.
 
