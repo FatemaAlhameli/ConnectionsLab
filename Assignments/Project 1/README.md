@@ -22,7 +22,8 @@ In my project, I used two datasets for the development of my webpage. Initially,
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/home%20pg.png" width = "460" height = "290"> 
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/pg3.png" width = "460" height = "290">
 <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/affirmations%20pg.png" width = "460" height = "290"><img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Project%201%20Img/quotes%20pg.png" width = "460" height = "290>
-                                                                                                                                                   
+ 
+  [Missing Part](https://drive.google.com/file/d/1ScGwC9dLiHUTC7ZELE0qOFRjoHFd2BI-/view?usp=sharing)
                                                                                                                                                                                                              
 ## Layout & User Interactions: 
 
