@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+body {
+    font-family: 'Sono', sans-serif;
+    font-size: 12pt;
+    background-color: #ddedea;
+ }
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: #001f3f;
+}
+
+.chat {
+    width: 600px;
+    height: 90%;
+    position: fixed;
+    overflow: scroll;
+    padding-left: 450px;
+ }
+
+.form-container {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+}
+
+.form-container input{
+    height: 30px;
+    display: block;
+    width: 100%;
+    outline: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 15px;
+    background-color: #ddedea;
+}
+
+.messages div {
+    max-width: 60%;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.messages .bot {
+    text-align: left;
+    margin-right: auto;
+    background: #bdd4d1;
+    color: #001f3f;
+ }
+
+ .messages .self {
+    text-align: right;
+    margin-left: auto;
+    background: white
+}
