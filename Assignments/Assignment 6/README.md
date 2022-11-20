@@ -1,4 +1,6 @@
 #  Rivescript Library
+[Working Link](https://fatemaalhameli.github.io/ConnectionsLab/Assignments/Assignment%206/#edge)
+
 For this week's assignment, I decided to create a simple website using the Rivescript library. Since I worked on three.js in class I wanted to explore a different library. Rivescript allows you to develop interactive chatbots. The chatbot I created is called Quote Bot, and its main purpose is to share with users a few inspirational quotes.
 
 ### Wireframe: 
