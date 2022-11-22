@@ -5,6 +5,7 @@ For this week's assignment, I decided to create a simple website using the Rives
 
 ### Wireframe: 
   <img src= "https://github.com/FatemaAlhameli/ConnectionsLab/blob/main/Media/Assignments%20Media/Quotebot.jpeg" width = "420" height = "300">
+
 ### Progress
 
 This chatbot was created using HTML, Javascript, CSS, and a rive file. I started with setting up the HTML page that consisted of divs that will store the messages and a form that included a text input. This input is where the user would type the messages. I assigned everything ids and classes in order to use in my CSS and app.js. 
