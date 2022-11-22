@@ -52,3 +52,8 @@ I feel a like this library was very straightforward and simple to understand. By
 https://www.rivescript.com/docs/tutorial#project-directory
 
 https://medium.com/@awesammcoder/javascript-tutorial-simple-chatai-using-rivescript-js-4f0291e298f1
+
+### Week 8 Homework 
+[Glitch Code Link](https://glitch.com/edit/#!/sockets-drawing-app-)
+
+[Glitch Live Link](https://sockets-drawing-app-.glitch.me)
